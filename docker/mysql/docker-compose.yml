@@ -1,0 +1,18 @@
+version: "3"
+services:
+  mysql80:
+    image: mysql:8.0
+    container_name: mysql-container
+    ports:
+      - 33060:3306
+    volumes:
+      - mysql-volume:/var/lib/mysql
+    environment:
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_ROOT_PASSWORD=root
+      - TZ=Asia/Tokyo
+    command: mysqld --character-set-server=utf8mb4 --lower_case_table_names=1 --max_allowed_packet=16MB
+
+volumes:
+  mysql-volume:

@@ -1,0 +1,6 @@
+[submodule "proto/akki-proto"]
+	path = proto/akki-proto
+	url = https://github.com/akki-F/akki-proto.git
+[submodule "java/akki-java-chat"]
+	path = java/akki-java-chat
+	url = https://github.com/akki-F/akki-java-chat.git
