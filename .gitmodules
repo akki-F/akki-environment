@@ -4,3 +4,6 @@
 [submodule "java/akki-java-chat"]
 	path = java/akki-java-chat
 	url = https://github.com/akki-F/akki-java-chat.git
+[submodule "react/akki-react-chat"]
+	path = react/akki-react-chat
+	url = https://github.com/akki-F/akki-react-chat.git
