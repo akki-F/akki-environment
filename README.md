@@ -1,5 +1,8 @@
 # akki-environment
 各パッケージをサブモジュールとしてまとめた管理用リポジトリ
+1. git clone https://github.com/akki-F/akki-environment.git
+2. git submodule update --init
+3. git submodule foreach git pull
 
 # chatアプリの起動 (https://zenn.dev/akkif/articles/cbb9882d476f01 )
 1. dockerでmysqlおよびenvoyの起動
