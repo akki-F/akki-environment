@@ -7,3 +7,6 @@
 [submodule "react/akki-react-chat"]
 	path = react/akki-react-chat
 	url = https://github.com/akki-F/akki-react-chat.git
+[submodule "react/react-auth0"]
+	path = react/react-auth0
+	url = https://github.com/akki-F/react-auth0.git
