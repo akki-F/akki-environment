@@ -1,0 +1,18 @@
+services:
+
+  mongodb:
+    container_name: "mongodb"
+    hostname: mongodb
+    image: mongo
+    restart: always
+    ports:
+      - 27017:27017
+    volumes:
+      - mongo-db:/data/db
+      - mongo-configdb:/data/configdb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: password
+volumes:
+  mongo-db:
+  mongo-configdb:

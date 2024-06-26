@@ -1,0 +1,4 @@
+services:
+  memcached :
+    image: memcached 
+    container_name: memcached-container
